@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
   current line = []
-  for name in katz_deli
+  katz_deli.each_with_index |name, index|
     puts 
   end
 end
