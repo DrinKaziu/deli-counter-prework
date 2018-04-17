@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
   current line = []
-  
+  for name in katz_deli do 
 end
 
 def take_a_number(katz_deli, name)
