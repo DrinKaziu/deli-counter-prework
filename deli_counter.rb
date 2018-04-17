@@ -10,7 +10,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
 end
-puts current_line
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
