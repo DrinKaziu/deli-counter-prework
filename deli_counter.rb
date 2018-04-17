@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  current_line = ["The line is currently:"]
+  current_line = "The line is currently:"
   if katz_deli.count > 1
     katz_deli.each_with_index do |name, index|
     current_line.push(" #{index + 1}. #{name}")
