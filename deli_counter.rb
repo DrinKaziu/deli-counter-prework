@@ -1,5 +1,5 @@
 katz_deli = []
 num = 0
 
-def line
+def line()
 end
