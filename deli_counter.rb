@@ -4,7 +4,7 @@ def line(katz_deli)
   current_line = ["The line is currently:"]
   if katz_deli.count > 1
     katz_deli.each_with_index do |name, index|
-    current_line.push(" #{index + 1}. #{name}").join(", ")
+    current_line.push(" #{index + 1}. #{name}")("str")
   end
   puts current_line
   else 
