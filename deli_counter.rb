@@ -5,12 +5,12 @@ def line(katz_deli)
   if katz_deli.count > 1
     katz_deli.each_with_index do |name, index|
     current_line.push("The line is currently: #{index + 1}. #{name}")
-    puts current_line
   end
   else 
     puts "The line is currently empty."
   end
 end
+puts current_line
 
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
