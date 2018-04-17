@@ -8,7 +8,7 @@ def line(katz_deli)
     return current_line
   end
   else 
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   end
 end
 
