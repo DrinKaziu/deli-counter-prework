@@ -4,11 +4,11 @@ def line(katz_deli)
   if katz_deli.size == 0 
     puts "The line is currently empty."
   end
-  current_line = []
-  katz_deli.each_with_index |name, index|
-    current_line.push(#{index + 1}. #{name})
-  end
-  current_line
+  # current_line = []
+  # katz_deli.each_with_index |name, index|
+  #   current_line.push(#{index + 1}. #{name})
+  # end
+  # current_line
 end
 
 def take_a_number(katz_deli, name)
